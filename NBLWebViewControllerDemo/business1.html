@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no minimal-ui"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache,no-store, must-revalidate">
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <style type="text/css">
+    </style>
+    
+    <script type="text/javascript">
+        function business1() {
+            var message = {
+                'methodName' : 'business1',
+                'params' : {
+                    'param0':'参数0',
+                    'param1':'参数1'
+                },
+                'callbackMethod': 'callback'
+            };
+            window.webkit.messageHandlers.business1Messagehandler.postMessage(message);
+        }
+        
+        function callback(text) {
+            alert("OC回调参数:" + text);
+        }
+        
+        function closeWebView() {
+            var message = {
+                'methodName' : 'closeWebView'
+            };
+            window.webkit.messageHandlers.baseMessagehandler.postMessage(message);
+        }
+    
+    </script>
+</head>
+<body>
+    <br /><br /><br />
+    <center><button onclick="business1()">业务1（js传参给OC，OC回调JS方法）</button></center>
+    <br /><br /><br />
+    <center><button onclick="closeWebView()">js调用OC方法关闭webview</button></center>
+</body>
+</html>

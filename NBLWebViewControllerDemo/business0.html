@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no minimal-ui"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache,no-store, must-revalidate">
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <style type="text/css">
+    </style>
+    
+    <script type="text/javascript">
+        function closeWebView() {
+            var message = {
+                'methodName' : 'closeWebView'
+            };
+            window.webkit.messageHandlers.baseMessagehandler.postMessage(message);
+        }
+        
+        function business0() {
+            var message = {
+                'methodName' : 'business0',
+            };
+            window.webkit.messageHandlers.business0Messagehandler.postMessage(message);
+        }
+    </script>
+</head>
+<body>
+    <br /><br /><br />
+    <center><button onclick="business0()">业务0（js调用OC方法）</button></center>
+    <br /><br /><br />
+    <center><button onclick="closeWebView()">js调用OC方法关闭webview</button></center>
+</body>
+</html>

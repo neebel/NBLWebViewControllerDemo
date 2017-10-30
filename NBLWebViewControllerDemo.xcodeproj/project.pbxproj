@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B59C60A1FA70B62009ACE17 /* business0.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B59C6091FA70B61009ACE17 /* business0.html */; };
+		4B7326B51FA30E7000B6BD4C /* NBLMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7326B41FA30E7000B6BD4C /* NBLMessage.m */; };
+		4B7326B91FA317CA00B6BD4C /* NBLBusiness1WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7326B01FA30C5300B6BD4C /* NBLBusiness1WebVC.m */; };
+		4B7326BA1FA317CA00B6BD4C /* NBLBusiness0WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7326B21FA30C5300B6BD4C /* NBLBusiness0WebVC.m */; };
+		4BACF8C31F9B478000AA8A0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BACF8C21F9B478000AA8A0D /* AppDelegate.m */; };
+		4BACF8C61F9B478000AA8A0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BACF8C51F9B478000AA8A0D /* ViewController.m */; };
+		4BACF8C91F9B478000AA8A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BACF8C71F9B478000AA8A0D /* Main.storyboard */; };
+		4BACF8CB1F9B478000AA8A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BACF8CA1F9B478000AA8A0D /* Assets.xcassets */; };
+		4BACF8CE1F9B478000AA8A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BACF8CC1F9B478000AA8A0D /* LaunchScreen.storyboard */; };
+		4BACF8D11F9B478000AA8A0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BACF8D01F9B478000AA8A0D /* main.m */; };
+		4BACF8DB1F9B478000AA8A0D /* NBLWebViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BACF8DA1F9B478000AA8A0D /* NBLWebViewControllerDemoTests.m */; };
+		4BACF8E61F9B478000AA8A0D /* NBLWebViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BACF8E51F9B478000AA8A0D /* NBLWebViewControllerDemoUITests.m */; };
+		4BACF8F71F9B48EC00AA8A0D /* NBLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BACF8F61F9B48EC00AA8A0D /* NBLWebViewController.m */; };
+		4BDF8F1E1FA1FF86004A86D8 /* business1.html in Resources */ = {isa = PBXBuildFile; fileRef = 4BDF8F1D1FA1FF86004A86D8 /* business1.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BACF8D71F9B478000AA8A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BACF8B61F9B478000AA8A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BACF8BD1F9B478000AA8A0D;
+			remoteInfo = NBLWebViewControllerDemo;
+		};
+		4BACF8E21F9B478000AA8A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BACF8B61F9B478000AA8A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BACF8BD1F9B478000AA8A0D;
+			remoteInfo = NBLWebViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B59C6091FA70B61009ACE17 /* business0.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = business0.html; sourceTree = "<group>"; };
+		4B7326AF1FA30C5300B6BD4C /* NBLBusiness1WebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLBusiness1WebVC.h; sourceTree = "<group>"; };
+		4B7326B01FA30C5300B6BD4C /* NBLBusiness1WebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLBusiness1WebVC.m; sourceTree = "<group>"; };
+		4B7326B11FA30C5300B6BD4C /* NBLBusiness0WebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLBusiness0WebVC.h; sourceTree = "<group>"; };
+		4B7326B21FA30C5300B6BD4C /* NBLBusiness0WebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLBusiness0WebVC.m; sourceTree = "<group>"; };
+		4B7326B31FA30E7000B6BD4C /* NBLMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLMessage.h; sourceTree = "<group>"; };
+		4B7326B41FA30E7000B6BD4C /* NBLMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLMessage.m; sourceTree = "<group>"; };
+		4B7326B61FA3155F00B6BD4C /* NBLWebViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLWebViewHeader.h; sourceTree = "<group>"; };
+		4BACF8BE1F9B478000AA8A0D /* NBLWebViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBLWebViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BACF8C11F9B478000AA8A0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BACF8C21F9B478000AA8A0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BACF8C41F9B478000AA8A0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BACF8C51F9B478000AA8A0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BACF8C81F9B478000AA8A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BACF8CA1F9B478000AA8A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BACF8CD1F9B478000AA8A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BACF8CF1F9B478000AA8A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BACF8D01F9B478000AA8A0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BACF8D61F9B478000AA8A0D /* NBLWebViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBLWebViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BACF8DA1F9B478000AA8A0D /* NBLWebViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLWebViewControllerDemoTests.m; sourceTree = "<group>"; };
+		4BACF8DC1F9B478000AA8A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BACF8E11F9B478000AA8A0D /* NBLWebViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBLWebViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BACF8E51F9B478000AA8A0D /* NBLWebViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLWebViewControllerDemoUITests.m; sourceTree = "<group>"; };
+		4BACF8E71F9B478000AA8A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BACF8F51F9B48EC00AA8A0D /* NBLWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLWebViewController.h; sourceTree = "<group>"; };
+		4BACF8F61F9B48EC00AA8A0D /* NBLWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLWebViewController.m; sourceTree = "<group>"; };
+		4BDF8F1D1FA1FF86004A86D8 /* business1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = business1.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BACF8BB1F9B478000AA8A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BACF8D31F9B478000AA8A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BACF8DE1F9B478000AA8A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B7326AE1FA30C5300B6BD4C /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				4B7326AF1FA30C5300B6BD4C /* NBLBusiness1WebVC.h */,
+				4B7326B01FA30C5300B6BD4C /* NBLBusiness1WebVC.m */,
+				4B7326B11FA30C5300B6BD4C /* NBLBusiness0WebVC.h */,
+				4B7326B21FA30C5300B6BD4C /* NBLBusiness0WebVC.m */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		4BACF8B51F9B478000AA8A0D = {
+			isa = PBXGroup;
+			children = (
+				4BACF8C01F9B478000AA8A0D /* NBLWebViewControllerDemo */,
+				4BACF8D91F9B478000AA8A0D /* NBLWebViewControllerDemoTests */,
+				4BACF8E41F9B478000AA8A0D /* NBLWebViewControllerDemoUITests */,
+				4BACF8BF1F9B478000AA8A0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BACF8BF1F9B478000AA8A0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BACF8BE1F9B478000AA8A0D /* NBLWebViewControllerDemo.app */,
+				4BACF8D61F9B478000AA8A0D /* NBLWebViewControllerDemoTests.xctest */,
+				4BACF8E11F9B478000AA8A0D /* NBLWebViewControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BACF8C01F9B478000AA8A0D /* NBLWebViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4B7326AE1FA30C5300B6BD4C /* Business */,
+				4BACF8F41F9B48B200AA8A0D /* NBLWebView */,
+				4BACF8C11F9B478000AA8A0D /* AppDelegate.h */,
+				4BACF8C21F9B478000AA8A0D /* AppDelegate.m */,
+				4BACF8C41F9B478000AA8A0D /* ViewController.h */,
+				4BACF8C51F9B478000AA8A0D /* ViewController.m */,
+				4BACF8C71F9B478000AA8A0D /* Main.storyboard */,
+				4BACF8CA1F9B478000AA8A0D /* Assets.xcassets */,
+				4BACF8CC1F9B478000AA8A0D /* LaunchScreen.storyboard */,
+				4BACF8CF1F9B478000AA8A0D /* Info.plist */,
+				4BACF8D01F9B478000AA8A0D /* main.m */,
+				4B59C6091FA70B61009ACE17 /* business0.html */,
+				4BDF8F1D1FA1FF86004A86D8 /* business1.html */,
+			);
+			path = NBLWebViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		4BACF8D91F9B478000AA8A0D /* NBLWebViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BACF8DA1F9B478000AA8A0D /* NBLWebViewControllerDemoTests.m */,
+				4BACF8DC1F9B478000AA8A0D /* Info.plist */,
+			);
+			path = NBLWebViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		4BACF8E41F9B478000AA8A0D /* NBLWebViewControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BACF8E51F9B478000AA8A0D /* NBLWebViewControllerDemoUITests.m */,
+				4BACF8E71F9B478000AA8A0D /* Info.plist */,
+			);
+			path = NBLWebViewControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		4BACF8F41F9B48B200AA8A0D /* NBLWebView */ = {
+			isa = PBXGroup;
+			children = (
+				4BACF8F51F9B48EC00AA8A0D /* NBLWebViewController.h */,
+				4BACF8F61F9B48EC00AA8A0D /* NBLWebViewController.m */,
+				4B7326B31FA30E7000B6BD4C /* NBLMessage.h */,
+				4B7326B41FA30E7000B6BD4C /* NBLMessage.m */,
+				4B7326B61FA3155F00B6BD4C /* NBLWebViewHeader.h */,
+			);
+			path = NBLWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BACF8BD1F9B478000AA8A0D /* NBLWebViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BACF8EA1F9B478000AA8A0D /* Build configuration list for PBXNativeTarget "NBLWebViewControllerDemo" */;
+			buildPhases = (
+				4BACF8BA1F9B478000AA8A0D /* Sources */,
+				4BACF8BB1F9B478000AA8A0D /* Frameworks */,
+				4BACF8BC1F9B478000AA8A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBLWebViewControllerDemo;
+			productName = NBLWebViewControllerDemo;
+			productReference = 4BACF8BE1F9B478000AA8A0D /* NBLWebViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BACF8D51F9B478000AA8A0D /* NBLWebViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BACF8ED1F9B478000AA8A0D /* Build configuration list for PBXNativeTarget "NBLWebViewControllerDemoTests" */;
+			buildPhases = (
+				4BACF8D21F9B478000AA8A0D /* Sources */,
+				4BACF8D31F9B478000AA8A0D /* Frameworks */,
+				4BACF8D41F9B478000AA8A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BACF8D81F9B478000AA8A0D /* PBXTargetDependency */,
+			);
+			name = NBLWebViewControllerDemoTests;
+			productName = NBLWebViewControllerDemoTests;
+			productReference = 4BACF8D61F9B478000AA8A0D /* NBLWebViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BACF8E01F9B478000AA8A0D /* NBLWebViewControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BACF8F01F9B478000AA8A0D /* Build configuration list for PBXNativeTarget "NBLWebViewControllerDemoUITests" */;
+			buildPhases = (
+				4BACF8DD1F9B478000AA8A0D /* Sources */,
+				4BACF8DE1F9B478000AA8A0D /* Frameworks */,
+				4BACF8DF1F9B478000AA8A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BACF8E31F9B478000AA8A0D /* PBXTargetDependency */,
+			);
+			name = NBLWebViewControllerDemoUITests;
+			productName = NBLWebViewControllerDemoUITests;
+			productReference = 4BACF8E11F9B478000AA8A0D /* NBLWebViewControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BACF8B61F9B478000AA8A0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = neebel;
+				TargetAttributes = {
+					4BACF8BD1F9B478000AA8A0D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					4BACF8D51F9B478000AA8A0D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4BACF8BD1F9B478000AA8A0D;
+					};
+					4BACF8E01F9B478000AA8A0D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4BACF8BD1F9B478000AA8A0D;
+					};
+				};
+			};
+			buildConfigurationList = 4BACF8B91F9B478000AA8A0D /* Build configuration list for PBXProject "NBLWebViewControllerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BACF8B51F9B478000AA8A0D;
+			productRefGroup = 4BACF8BF1F9B478000AA8A0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BACF8BD1F9B478000AA8A0D /* NBLWebViewControllerDemo */,
+				4BACF8D51F9B478000AA8A0D /* NBLWebViewControllerDemoTests */,
+				4BACF8E01F9B478000AA8A0D /* NBLWebViewControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BACF8BC1F9B478000AA8A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BACF8CE1F9B478000AA8A0D /* LaunchScreen.storyboard in Resources */,
+				4BDF8F1E1FA1FF86004A86D8 /* business1.html in Resources */,
+				4BACF8CB1F9B478000AA8A0D /* Assets.xcassets in Resources */,
+				4B59C60A1FA70B62009ACE17 /* business0.html in Resources */,
+				4BACF8C91F9B478000AA8A0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BACF8D41F9B478000AA8A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BACF8DF1F9B478000AA8A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BACF8BA1F9B478000AA8A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7326B91FA317CA00B6BD4C /* NBLBusiness1WebVC.m in Sources */,
+				4B7326BA1FA317CA00B6BD4C /* NBLBusiness0WebVC.m in Sources */,
+				4BACF8C61F9B478000AA8A0D /* ViewController.m in Sources */,
+				4BACF8D11F9B478000AA8A0D /* main.m in Sources */,
+				4BACF8F71F9B48EC00AA8A0D /* NBLWebViewController.m in Sources */,
+				4B7326B51FA30E7000B6BD4C /* NBLMessage.m in Sources */,
+				4BACF8C31F9B478000AA8A0D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BACF8D21F9B478000AA8A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BACF8DB1F9B478000AA8A0D /* NBLWebViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BACF8DD1F9B478000AA8A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BACF8E61F9B478000AA8A0D /* NBLWebViewControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BACF8D81F9B478000AA8A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BACF8BD1F9B478000AA8A0D /* NBLWebViewControllerDemo */;
+			targetProxy = 4BACF8D71F9B478000AA8A0D /* PBXContainerItemProxy */;
+		};
+		4BACF8E31F9B478000AA8A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BACF8BD1F9B478000AA8A0D /* NBLWebViewControllerDemo */;
+			targetProxy = 4BACF8E21F9B478000AA8A0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BACF8C71F9B478000AA8A0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BACF8C81F9B478000AA8A0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BACF8CC1F9B478000AA8A0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BACF8CD1F9B478000AA8A0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BACF8E81F9B478000AA8A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BACF8E91F9B478000AA8A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BACF8EB1F9B478000AA8A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98QJW2PH2H;
+				INFOPLIST_FILE = NBLWebViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLWebViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BACF8EC1F9B478000AA8A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98QJW2PH2H;
+				INFOPLIST_FILE = NBLWebViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLWebViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BACF8EE1F9B478000AA8A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NBLWebViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLWebViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBLWebViewControllerDemo.app/NBLWebViewControllerDemo";
+			};
+			name = Debug;
+		};
+		4BACF8EF1F9B478000AA8A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NBLWebViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLWebViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBLWebViewControllerDemo.app/NBLWebViewControllerDemo";
+			};
+			name = Release;
+		};
+		4BACF8F11F9B478000AA8A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NBLWebViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLWebViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NBLWebViewControllerDemo;
+			};
+			name = Debug;
+		};
+		4BACF8F21F9B478000AA8A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NBLWebViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.neebel.NBLWebViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NBLWebViewControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BACF8B91F9B478000AA8A0D /* Build configuration list for PBXProject "NBLWebViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BACF8E81F9B478000AA8A0D /* Debug */,
+				4BACF8E91F9B478000AA8A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BACF8EA1F9B478000AA8A0D /* Build configuration list for PBXNativeTarget "NBLWebViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BACF8EB1F9B478000AA8A0D /* Debug */,
+				4BACF8EC1F9B478000AA8A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BACF8ED1F9B478000AA8A0D /* Build configuration list for PBXNativeTarget "NBLWebViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BACF8EE1F9B478000AA8A0D /* Debug */,
+				4BACF8EF1F9B478000AA8A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BACF8F01F9B478000AA8A0D /* Build configuration list for PBXNativeTarget "NBLWebViewControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BACF8F11F9B478000AA8A0D /* Debug */,
+				4BACF8F21F9B478000AA8A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BACF8B61F9B478000AA8A0D /* Project object */;
+}
