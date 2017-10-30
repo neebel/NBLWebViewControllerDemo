@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B0CB9511FA7363F0061ED65 /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4B0CB9501FA7363F0061ED65 /* icon.bundle */; };
 		4B59C60A1FA70B62009ACE17 /* business0.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B59C6091FA70B61009ACE17 /* business0.html */; };
 		4B7326B51FA30E7000B6BD4C /* NBLMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7326B41FA30E7000B6BD4C /* NBLMessage.m */; };
 		4B7326B91FA317CA00B6BD4C /* NBLBusiness1WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7326B01FA30C5300B6BD4C /* NBLBusiness1WebVC.m */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B0CB9501FA7363F0061ED65 /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
 		4B59C6091FA70B61009ACE17 /* business0.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = business0.html; sourceTree = "<group>"; };
 		4B7326AF1FA30C5300B6BD4C /* NBLBusiness1WebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBLBusiness1WebVC.h; sourceTree = "<group>"; };
 		4B7326B01FA30C5300B6BD4C /* NBLBusiness1WebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBLBusiness1WebVC.m; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				4BACF8CC1F9B478000AA8A0D /* LaunchScreen.storyboard */,
 				4BACF8CF1F9B478000AA8A0D /* Info.plist */,
 				4BACF8D01F9B478000AA8A0D /* main.m */,
+				4B0CB9501FA7363F0061ED65 /* icon.bundle */,
 				4B59C6091FA70B61009ACE17 /* business0.html */,
 				4BDF8F1D1FA1FF86004A86D8 /* business1.html */,
 			);
@@ -284,6 +287,7 @@
 			files = (
 				4BACF8CE1F9B478000AA8A0D /* LaunchScreen.storyboard in Resources */,
 				4BDF8F1E1FA1FF86004A86D8 /* business1.html in Resources */,
+				4B0CB9511FA7363F0061ED65 /* icon.bundle in Resources */,
 				4BACF8CB1F9B478000AA8A0D /* Assets.xcassets in Resources */,
 				4B59C60A1FA70B62009ACE17 /* business0.html in Resources */,
 				4BACF8C91F9B478000AA8A0D /* Main.storyboard in Resources */,

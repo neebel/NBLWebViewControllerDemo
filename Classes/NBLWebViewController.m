@@ -157,7 +157,7 @@ static NSString *goBack = @"goBack";
     if (!_backItem) {
         UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 44, 44)];
         button.titleLabel.font = [UIFont systemFontOfSize:15];
-        [button setImage:[UIImage imageNamed:@"nav_back"] forState:UIControlStateNormal];
+        [button setImage:[UIImage imageNamed:@"icon.bundle/nav_back"] forState:UIControlStateNormal];
         [button setTitle:@"返回" forState:UIControlStateNormal];
         button.imageEdgeInsets = UIEdgeInsetsMake(0, -8, 0, 0);
         [button addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
