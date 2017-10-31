@@ -18,7 +18,6 @@ In these methods, you can do your own logic
 
 
 NBLWebViewController 是一个轻量化的网页加载组件，基于WKWebView，由于WKWebView支持的最低平台为iOS8，所以项目如果需要兼容iOS7，
-
 就要自己使用UIWebView了。
 
 NBLWebViewController提供了加载进度条、返回上一级页面和关闭WebView、JS和OC交互等功能。
